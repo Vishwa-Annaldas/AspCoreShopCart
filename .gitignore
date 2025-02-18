@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Shopping/.vs/Shopping/CopilotIndices/17.12.68.61481
+/Shopping/.vs/Shopping/FileContentIndex
+/Shopping/.vs/Shopping/v17
+/Shopping/.vs/Shopping/DesignTimeBuild
+/Shopping/Shopping.Client/bin/Debug/net8.0
+/Shopping/Shopping.Client/obj
+/.vs
+/Shopping/.vs/Shopping/config
