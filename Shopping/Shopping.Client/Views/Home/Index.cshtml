@@ -6,23 +6,23 @@
 <div class="container text-center">
     <div class="row border">
         <div class="col fw-bold">
-            @Html.DisplayNameFor(model=>model.Name)
+            @Html.DisplayNameFor(model => model.Name)
         </div>
         <div class="col">
-            @Html.DisplayNameFor(model=>model.Category)
+            @Html.DisplayNameFor(model => model.Category)
         </div>
         <div class="col">
-            @Html.DisplayNameFor(model=>model.Description)
+            @Html.DisplayNameFor(model => model.Description)
         </div>
         <div class="col">
-            @Html.DisplayNameFor(model=>model.ImageFile)
+            @Html.DisplayNameFor(model => model.ImageFile)
         </div>
         <div class="col">
             @Html.DisplayNameFor(model => model.Price)
         </div>
     </div>
-    
-        @foreach (var prod in Model)
+
+    @foreach (var prod in Model)
     {
         <div class="row border">
             <div class="col">@Html.DisplayFor(model => prod.Name)</div>
@@ -31,7 +31,6 @@
             <div class="col">@Html.DisplayFor(model => prod.ImageFile)</div>
             <div class="col">@Html.DisplayFor(model => prod.Price)</div>
         </div>
-        }
-    
+    }
 </div>
 
